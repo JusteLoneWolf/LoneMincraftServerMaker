@@ -1,0 +1,14 @@
+{
+  "Mohist": {
+    "url": "https://mohistmc.com/api/v2/projects/mohist/1.20.2/builds/6/download",
+    "filename": "mohist.jar"
+  },
+  "paper": {
+    "url": "https://api.papermc.io/v2/projects/paper/versions/1.20.2/builds/318/downloads/paper-1.20.2-318.jar",
+    "filename": "paper.jar"
+  },
+  "velocity": {
+    "url": "https://api.papermc.io/v2/projects/velocity/versions/3.3.0-SNAPSHOT/builds/400/downloads/velocity-3.3.0-SNAPSHOT-400.jar",
+    "filename": "velocity.jar"
+  }
+}

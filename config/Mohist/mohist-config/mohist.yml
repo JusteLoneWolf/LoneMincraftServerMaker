@@ -1,0 +1,88 @@
+# This is the main configuration file for Mohist.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Mohist wiki at
+# https://wiki.mohistmc.com/
+#
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the Discord or drop by our forums and leave a post.
+#
+# Discord: https://discord.gg/mohistmc
+# Forums: https://mohistmc.com/
+# Forums (CN): https://mohistmc.cn/
+
+commands:
+  worlds: true
+  warps: true
+anvilfix:
+  maximumrepaircost: 40
+  enchantment_fix: false
+  max_enchantment_level: 32767
+modlist_check:
+  blacklist:
+    enable: false
+    list: []
+    message: Connection closed - PlayerModsCheck blacklist
+  whitelist:
+    enable: false
+    list: '[minecraft, forge]'
+    message: Connection closed - PlayerModsCheck whitelist
+max-bees-in-hive: 3
+enchantment-table-book-animation-tick: false
+networkmanager:
+  enable: false
+  debug: false
+  intercept: []
+threadpriority:
+  server_thread: 8
+entity:
+  clear:
+    item:
+      enable: false
+      whitelist: []
+      msg: '[Server] Cleaned up %size% drops'
+      time: 1800
+ban:
+  item:
+    enable: false
+    list: []
+  entity:
+    enable: false
+    list: []
+  enchantment:
+    enable: false
+    list: []
+motd:
+  firstline: <RAINBOW1>A Minecraft Server</RAINBOW>
+  secondline: ''
+settings:
+  messages:
+    ping-command-output: §2%s's ping is %sms
+events:
+  fire_tick: false
+forge:
+  bukkitpermissionshandler: true
+worldmanage: true
+server_branding: mohist
+velocity:
+  enabled: true
+  onlineMode: false
+  secret: C8DeMyQgwVanfqq4tJSzzWricaYfo4lH
+mohist:
+  show_logo: true
+  lang: fr_FR
+  check_update: true
+  libraries:
+    check: true
+    downloadsource: MOHIST
+  installation-finished: false
+  check_client_mods: false
+config-version: 1
+keepinventory:
+  global:
+    enable: false
+    inventory: true
+    exp: true
+  world:
+    inventory: false
+    exp: false

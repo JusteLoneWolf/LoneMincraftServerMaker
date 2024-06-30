@@ -1,0 +1,19 @@
+{
+  "name": "loneservermaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "content-disposition-parser": "^1.0.2",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.3.1",
+    "progress": "^2.0.3",
+    "prompts": "^2.4.2"
+  }
+}
